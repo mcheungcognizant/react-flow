@@ -56,6 +56,7 @@ const Controls: FC<PropsWithChildren<ControlProps>> = ({
   };
 
   const onFitViewHandler = () => {
+    console.log('am i getting here');
     fitView(fitViewOptions);
     onFitView?.();
   };
